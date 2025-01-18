@@ -51,7 +51,7 @@ def send_slack_message(webhook_url, trends):
 
 if __name__ == "__main__":
     # Replace with your Slack webhook URL
-    SLACK_WEBHOOK_URL = "xoxb-8299778381476-8309981985793-2CuRvS7ufTpY9BMbzOepjYZ6?"
+    SLACK_WEBHOOK_URL = "https://xoxb-8299778381476-8309981985793-2CuRvS7ufTpY9BMbzOepjYZ6"
     
     try:
         trends = get_nifty50_trends()
