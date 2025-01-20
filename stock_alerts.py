@@ -74,7 +74,12 @@ def send_slack_message(webhook_url, gainers, losers):
 
 if __name__ == "__main__":
     # Replace with your Slack webhook URL
+<<<<<<< HEAD
+    V1
     SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
+=======
+    SLACK_WEBHOOK_URL = "YOUR_WEBHOOK_URL"
+>>>>>>> 94b1462c286293a8945906a63f73dc4b979225a5
     
     try:
         print("Getting trends...")
